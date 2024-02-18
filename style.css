@@ -1,0 +1,195 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+
+}
+
+.nav ul {
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    font-size: 20px;
+    gap: 60px;
+    
+}
+
+.v {
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    margin-top: 10px;
+    font-size: 20px;
+}
+
+
+button  {
+    width: 150px;
+    height: 50px;
+    margin: 0px 20px;
+    /* margin-top: 10px; */
+
+}
+
+.yellow {
+    width: 150px;
+    height: 50px;
+    margin: 0px 20px;
+    background-color: lightcoral;
+    color: white;
+
+}
+
+.same {
+    margin: 10px 20px;
+    width: 400px;
+}
+.samee {
+    width: 200px;
+    height: 50px;
+    background-color: goldenrod;
+}
+
+.card-con {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 100%;
+}
+.card {
+    width: 600px;
+    margin: 10px 10px ;
+}
+
+.card img {
+    /* height: 100%; */
+}
+
+.card-cont {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.pak {
+    width: 500px;
+    margin: 10px 20px;
+
+
+}
+
+.pak img {
+    height: 400px;
+}
+
+
+@media (max-width: 1170px) {
+    .nav {
+        background-color: lightgray;
+    }
+    .nav ul li{
+        display: none;
+        /* border: 2px solid whitesmoke; */
+        
+    }
+    .v {
+        font-size: 20px;
+    }
+    
+button  {
+    width: 100px;
+    height: 50px;
+    margin: 10px 20px;
+    background-color: aquamarine;
+    color: white;
+    flex-wrap: wrap;
+
+}
+
+.yellow {
+    width: 100px;
+    height: 50px;
+    margin: 0px 20px;
+    background-color: aquamarine;
+    color: white;
+
+}
+
+.same {
+    margin: 10px 20px;
+    width: 100px;
+}
+.samee {
+    width: 100px;
+    height: 50px;
+    background-color: aquamarine;
+    color: white;
+}
+
+.nav img {
+    width: 50%;
+    
+    
+}
+
+}
+
+@media (max-width: 400px) {
+    button  {
+        width: 200px;
+        height: 50px;
+        flex-direction: column;
+        background-color: lightgreen;
+        color: white;
+        font-size: 20px;
+        margin-top: 10px;
+        margin-left: 25px;
+        
+        
+    }
+    
+    .yellow {
+        width: 200px;
+        flex-direction: column;
+        background-color: lightgreen;
+        color: white;
+        font-size: 20px;
+        margin-left: 25px;
+        /* margin-top: 20px; */
+        /* gap: 30px; */
+    
+    }
+    
+
+
+    .same {
+        width: 200px;
+        flex-direction: column;
+        background-color: lightgreen;
+        color: white;
+        font-size: 20px;
+        margin-left: 25px;
+    }
+
+
+
+
+    .samee {
+        width: 200px;
+        flex-direction: column;
+        background-color: lightgreen;
+        color: white;
+        font-size: 20px;
+        margin-left: 25px;
+        
+    }
+
+    .vlack {
+        background-color: lightgreen;
+        margin-left: 25px;
+        font-size: 20px;
+    }
+    
+
+}
